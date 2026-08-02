@@ -1,0 +1,32 @@
+{
+  "name": "agnes-media-generator",
+  "version": "2.0.0",
+  "description": "Agnes AI Image and Video Generation Tool (Python version) - Cross-platform media generator using Agnes API",
+  "main": "agnes_generate.py",
+  "scripts": {
+    "start": "python agnes_generate.py",
+    "image": "python agnes_generate.py --action image --prompt \"$PROMPT\"",
+    "video": "python agnes_generate.py --action video --prompt \"$PROMPT\"",
+    "test": "echo 'Run: npm run image -- prompt=\"your prompt here\"'"
+  },
+  "keywords": [
+    "agnes",
+    "ai",
+    "image",
+    "video",
+    "generation",
+    "cross-platform",
+    "api-client"
+  ],
+  "author": {
+    "name": "Sapiens AI"
+  },
+  "license": "MIT",
+  "dependencies": {
+    "requests": "^2.31.0"
+  },
+  "engines": {
+    "node": ">=14.0.0",
+    "python": ">=3.8.0"
+  }
+}
